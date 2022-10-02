@@ -4,7 +4,7 @@ int[] mainArray = CreateArray();
 Console.Write(String.Join(", ", mainArray));
 int numOfEv = EvenFromArray(mainArray);
 Console.WriteLine();
-Console.WriteLine(numOfEv);
+Console.WriteLine($"Количество чётных элементов: {numOfEv}");
 
 int[] CreateArray()
 {
